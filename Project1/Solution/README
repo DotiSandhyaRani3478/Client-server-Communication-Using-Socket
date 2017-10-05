@@ -1,0 +1,34 @@
+//Doti SandhyaRani (A04714047)
+
+README
+====================================
+
+I have below files
+1) server.c
+2) client.c
+3) orginal_file.txt
+
+
+
+
+
+EXECUTION
+=====================================
+
+1) server.c
+
+Run as	
+     
+    gcc -o server server.c
+    ./server
+
+
+
+2) client.c 
+
+Run as
+	gcc -o client client.c
+	./client zeus.cs.txtstate.edu (OR) ./client localhost 
+
+
+

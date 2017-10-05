@@ -1,0 +1,26 @@
+In this assignment, you are going to implement a 
+client-server program using TCP and C language. 
+
+In the program, set up a database of courses on the 
+server. Each course's information includes the following:
+
+Course name (e.g. advanced operating systems), Course ID (e.g. CS5306), 
+Number of students registered, Number of vacancies left, Time offered (e.g. Fall 2017) 
+
+The client is able to do the following:
+
+1.List All: the client can send a request to the server to list all the courses in the database.
+
+2. Search: the client can send a request to the server to search for the
+detailed information of a course using course name, course ID, and time offered. For example,if the client types the name of the course: "Advanced Operating Systems" or its ID CS5306, the server will reply with all the course's information. If the client types "Fall 2017", the server will reply with all the courses offered in Fall 2017.  
+
+3.Add: the client can send a request to the server to add
+a new course to the database.
+
+4.Delete: the client can send a request to the server to delete
+a course from the database by the name of the course.
+
+How to submit?
+
+Write a readme file of how to run your program. Zip all your files and submit to Tracs. 
+
