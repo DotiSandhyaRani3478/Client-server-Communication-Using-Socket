@@ -1,0 +1,112 @@
+/*Doti SandhyaRani (A04714047)
+ * Advanced OS 
+ * Project4 
+ */
+
+===============================================
+EXECUTION
+===============================================
+
+---- I have my code in one single file as "BellmanFord.java" 
+---- I generated the random graph (i.e; weights on each edge) and I provided the three sample outputs below in this file.
+
+
+
+On Eclipse IDE:
+====================
+
+1) Open the file on eclipse IDE and compile and Run it.
+
+
+On Command prompt:
+====================
+
+1) compile: 
+	
+		javac BellmanFord.java
+
+
+2) Run:
+		java BellmanFord 
+
+
+
+======================================================
+MY SAMPLE OUTPUT: 1
+======================================================
+
+
+****************************************
+**********BellmanFord Algorithm*********
+****************************************
+
+Enter number of vertices : 
+5
+
+The generated adjacency matrix is (with weights) : 
+0 2 17 15 12 
+2 0 18 5 20 
+17 18 0 18 15 
+15 5 18 0 17 
+12 20 15 17 0 
+Enter the source node : 
+1
+Enter the destination node : 
+5
+Distance from source node 1 -- 5 is 12
+
+
+
+======================================================
+MY SAMPLE OUTPUT: 2
+======================================================
+
+
+****************************************
+**********BellmanFord Algorithm*********
+****************************************
+
+Enter number of vertices : 
+4
+
+The generated adjacency matrix is (with weights) : 
+0 8 13 7 
+8 0 14 7 
+13 14 0 20 
+7 7 20 0 
+Enter the source node : 
+1
+Enter the destination node : 
+4
+Distance from source node 1 -- 4 is 7
+
+
+======================================================
+MY SAMPLE OUTPUT: 3
+======================================================
+
+
+****************************************
+**********BellmanFord Algorithm*********
+****************************************
+
+Enter number of vertices : 
+8
+
+The generated adjacency matrix is (with weights) : 
+0 15 5 15 12 1 6 10 
+15 0 4 4 4 4 5 13 
+5 4 0 2 14 8 8 15 
+15 4 2 0 19 20 15 20 
+12 4 14 19 0 15 7 2 
+1 4 8 20 15 0 6 14 
+6 5 8 15 7 6 0 15 
+10 13 15 20 2 14 15 0 
+Enter the source node : 
+1
+Enter the destination node : 
+8
+Distance from source node 1 -- 8 is 10
+
+
+

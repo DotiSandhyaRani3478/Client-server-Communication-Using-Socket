@@ -1,0 +1,92 @@
+/*Doti SandhyaRani 
+	(A04714047)
+       	Adv OS project3*/
+
+===============================================
+EXECUTION
+===============================================
+
+I have my code in one single file as "sandhya_mpi.c" 
+
+1) Login in to leap.txstate.edu
+
+
+
+2) Compile: 
+	
+	mpicc -o sandhya_mpi sandhya_mpi.c -std=c99
+
+
+3) Run:
+
+	mpirun -n 4 ./sandhya_mpi
+
+
+
+======================================================
+MY SAMPLE OUTPUT 1:
+======================================================
+[s_d228@login2 ~]$ mpicc -o mpi_working mpi_working.c -std=c99
+[s_d228@login2 ~]$ mpirun -n 4 ./mpi_working
+Enter No.of rows for Matrix A 
+4
+Enter No.of columns for Matrix A 
+4
+Enter No.of rows for Matrix B 
+4
+Enter No.of columns for Matrix B 
+4
+rank 1 out of 4 processors 
+rank 2 out of 4 processors 
+rank 3 out of 4 processors 
+
+
+*****************************************************
+Result of Matrix Multiplication (A * B = C)
+*****************************************************
+629.00  960.00  923.00  1121.00 
+999.00  1662.00 1655.00 1675.00 
+483.00  863.00  690.00  637.00 
+1012.00 1506.00 1439.00 1801.00 
+
+
+Its a master process :
+ rank 0 out of 4 processors 
+
+
+
+
+=====================================================
+MY SAMPLE OUTPUT 2:
+======================================================
+[s_d228@login2 ~]$ mpicc -o mpi_working mpi_working.c -std=c99
+[s_d228@login2 ~]$ mpirun -n 5 ./mpi_working
+Enter No.of rows for Matrix A 
+6
+Enter No.of columns for Matrix A 
+6
+Enter No.of rows for Matrix B 
+6
+Enter No.of columns for Matrix B 
+6
+rank 1 out of 5 processors 
+rank 2 out of 5 processors 
+rank 3 out of 5 processors 
+rank 4 out of 5 processors 
+
+
+******************************************
+Result of Matrix Multiplication (A * B = C)
+*******************************************
+604.00	943.00 	1758.00 485.00  710.00  805.00 
+989.00	1042.00 1765.00 707.00  1246.00 1016.00 
+1344.00 1447.00 2357.00 1098.00 1584.00 1789.00 
+1056.00 953.00 	1246.00 818.00  1285.00 1273.00 
+1580.00 1468.00	2093.00 1032.00 1879.00 1648.00 
+1485.00 1624.00 2832.00 1013.00 1589.00 1720.00 
+
+
+Its a master process :
+ rank 0 out of 5 processors 
+
+
